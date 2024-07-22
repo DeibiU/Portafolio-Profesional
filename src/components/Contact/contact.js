@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { Toaster, toast } from 'sonner';
 import GitHubIcon from '../../assets/GitHubIcon.png';
 import LinkedInIcon from '../../assets/LinkedInIcon.png';
 import './contact.css';
@@ -18,14 +19,13 @@ const Contact = () => {
         if (formName !== '' && formEmail !== '' && formMessage !== '') {
             emailjs.sendForm('service_82dmeya', 'template_2mqbge9', form.current, 'Z2LXx6GkWrFVN0D58')
                 .then((result) => {
-                    console.log('SUCCESS!');
                     e.target.reset();
-                    alert('Email Sent!');
+                    toast.success("Email Sent Successfully!");
                 }, (error) => {
-                    console.log('FAILED...', error.text);
+                    toast.error("Oopsie!" + error.text);
                 });
         } else {
-            console.log("Something is missing!!");
+            toast.warning("Something is missing!!, you must fill in every entry before sending it.");
         }
     };
 
@@ -38,6 +38,7 @@ const Contact = () => {
                 <input type="email" className="email" placeholder="Your email please." name='your_email'/>
                 <textarea className="message" name="message" rows="5" placeholder="I'm listening..."/>
                 <button type="submit" value="Send!" className="submitBtn">Submit</button>
+                <Toaster richColors />
                 <div className="links">
                     <a href="https://github.com/DeibiU" className="iconLink"><img src={GitHubIcon} alt="GitHub" className="link"/></a>
                     <a href="https://www.linkedin.com/in/david-huertas-lafuente-17b39b280/" className="iconLink"><img src={LinkedInIcon} alt="LinkedIn" className="link" /></a>
