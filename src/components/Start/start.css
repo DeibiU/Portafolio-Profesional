@@ -1,0 +1,74 @@
+#start {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.bg{
+    position: absolute;
+    top: 4rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 100vh;
+    padding-bottom: 100px;/*wacho*/
+}
+
+.startContent {
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+
+.greeting {
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.startName {
+    color: blue;
+}
+
+.startParragraph {
+    font-family: "Protest Revolution", sans-serif;
+    font-size: medium;
+    font-weight: 100;
+    letter-spacing: normal;
+}
+
+.btn {
+    background: yellow;
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+.btnImg {
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+}
+
+@media screen and (max-width:480px) {
+    .bg {
+        right: -10vw
+    }
+    .startContent {
+        font-size: 10vw;
+    }
+    .greeting {
+        font-size: 4.5vw;
+    }
+    
+}

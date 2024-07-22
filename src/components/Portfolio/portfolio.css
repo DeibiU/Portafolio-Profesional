@@ -1,0 +1,57 @@
+#portfolio {
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.portfolioTitle{
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+
+.portfolioDescription{
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 45rem;
+    margin-bottom: 0.5rem;
+}
+
+.portfolioImages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 65rem;
+}
+
+/*note4da future: height may vary between pics*/
+.portfolioImage{
+    object-fit: cover;
+    height: 30rem;
+    margin: 0.5;
+}
+
+.portfolioBtn{
+    margin: 3rem 0;
+    padding: 0.5rem 2.5rem;
+    border: none;
+    border-radius: 2rem;
+    color:blue;
+    background: yellow;
+    font-size: 1rem;
+}
+
+/*note4da future: this too*/
+@media screen and (max-width:585px) {
+    .portfolioImage{
+        height: vw;
+    }
+}
