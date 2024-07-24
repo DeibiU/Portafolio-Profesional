@@ -1,0 +1,38 @@
+{
+    "navbar": {
+        "start": "Inicio",
+        "about": "Acerca de",
+        "project": "Proyectos",
+        "contact": "Contact Me!!"
+    },
+    "start": {
+        "greeting": "Mucho gusto!",
+        "intro": "Soy",
+        "carreer": "Ingeniero de software",
+        "quote": "Puedo ser, y hacer muchas cosas. Y bien hechas"
+    },
+    "skillset": {
+        "title": "Mis habilidades? Dejame mostrarlas",
+        "subtitle": "Tengo una extensa cantidad de habilidades, las cuales varian fuertemente de cada una para tener exito en la mayor cantidad posible de campos y situaciones",
+        "skill": "Habilidad",
+        "skill1": "Puedo, hablar y escribir a nivel avanzado Ingles, Español, Frances, ademas de Japones intermedio",
+        "skill2": "Tengo experiencia trabajando Java, Html, Css, TypeScript, JavaScript, C# y C++",
+        "skill3": "He aprendido la habilidad de resolucion de problemas y flexibilidad, especialmente trabajando en equipo"
+    },
+    "portfolio": {
+        "title": "Coleccion de proyectos",
+        "subtitle": "Presento mis humildes y honestas contribuciones",
+        "button": "Ver mas"
+    },
+    "contact": {
+        "title": "Le gustaria contactarme",
+        "subtitle": "In case you have any questions, you may write them down below",
+        "name": "Su nombre porfavor.",
+        "email": "Su email porfavor.",
+        "message": "Escucho...",
+        "button": "Subir"
+    },
+    "footer": {
+        "label": "Idioma"
+    }
+}

@@ -3,32 +3,35 @@ import Icon1 from '../../assets/icon1.png'; //better to rename this to UIDesign 
 import Icon2 from '../../assets/icon2.png';
 import Icon3 from '../../assets/icon3.png';
 import './skillset.css';
+import { useTranslation } from 'react-i18next';
 
 const Skillset = () => {
+    const [t, i18n] = useTranslation("global");
+
     return (
         <section id='skillset'>
-            <span className="skillStatement"> My Skills? Glad you asked. </span>
-            <span className="skillComment"> I have an extense array of skills, which vary radically from each other <br/>in order to excel in as many fields and situations as possible. </span>
+            <span className="skillStatement"> {t("skillset.title")}. </span>
+            <span className="skillComment"> {t("skillset.subtitle")}. </span>
             <div className="skillBars">
                 <div className='skillBar'>
                     <img src={Icon1} alt="Skill1" className="skillImg" style= {{width:75}}/> 
                     <div className='skillBarText'>
-                        <h2>Skill #1</h2>
-                        <p>I can speak, read, and write advanced English, Spanish, French, and intermediate Japanese.</p>
+                        <h2>{t("skillset.skill")} #1</h2>
+                        <p>{t("skillset.skill1")}.</p>
                     </div>
                 </div>
                 <div className='skillBar'>
                     <img src={Icon2} alt="Skill2" className="skillImg" style= {{width:75}}/>
                     <div className='skillBarText'>
-                        <h2>Skill #2</h2>
-                        <p>I have experience working with Java, Html, Css, TypeScript, JavaScript, C#, and C++.</p>
+                        <h2>{t("skillset.skill")} #2</h2>
+                        <p>{t("skillset.skill2")}.</p>
                     </div>
                 </div>
                 <div className='skillBar'>
                     <img src={Icon3} alt="Skill3" className="skillImg" style= {{width:75}}/>
                     <div className='skillBarText'>
-                        <h2>Skill #3</h2>
-                        <p>I have learnt the skill of problem solving and flexibility, specially when working with a team.</p>
+                        <h2>{t("skillset.skill")} #3</h2>
+                        <p>{t("skillset.skill3")}.</p>
                     </div>
                 </div>
             </div>

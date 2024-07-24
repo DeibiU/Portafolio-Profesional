@@ -1,0 +1,38 @@
+{
+    "navbar": {
+        "start": "Start",
+        "about": "About",
+        "project": "Projects",
+        "contact": "Contact Me!!"
+    },
+    "start": {
+        "greeting": "Nice to meet you!",
+        "intro": "I am",
+        "carreer": "Software engineer",
+        "quote": "I am many things, can do many things. And done right"
+    },
+    "skillset": {
+        "title": "My skills? Glad you asked",
+        "subtitle": "I have an extense array of skills, which vary radically from each other in order to excel in as many fields and situations as possible",
+        "skill": "Skill",
+        "skill1": "I can speak, read, and write advanced English, Spanish, French, and intermediate Japanese",
+        "skill2": "I have experience working with Java, Html, Css, TypeScript, JavaScript, C#, and C++",
+        "skill3": "I have learnt the skill of problem solving and flexibility, specially when working with a team"
+    },
+    "portfolio": {
+        "title": "Array of projects",
+        "subtitle": "Behold of my humble but honest contributions",
+        "button": "See More"
+    },
+    "contact": {
+        "title": "Would you like to contact me",
+        "subtitle": "In case you have any questions, you may write them down below",
+        "name": "Your name please.",
+        "email": "Your email please.",
+        "message": "I'm listening...",
+        "button": "Submit"
+    },
+    "footer": {
+        "label": "Language"
+    }
+}
