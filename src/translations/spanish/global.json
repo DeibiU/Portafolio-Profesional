@@ -3,13 +3,14 @@
         "start": "Inicio",
         "about": "Acerca de",
         "project": "Proyectos",
-        "contact": "Contact Me!!"
+        "contact": "Contacteme!!"
     },
     "start": {
         "greeting": "Mucho gusto!",
         "intro": "Soy",
         "carreer": "Ingeniero de software",
-        "quote": "Puedo ser, y hacer muchas cosas. Y bien hechas"
+        "quote": "Puedo ser, y hacer muchas cosas. Y bien hechas",
+        "cv": "Le gustaria ver mi CV"
     },
     "skillset": {
         "title": "Mis habilidades? Dejame mostrarlas",

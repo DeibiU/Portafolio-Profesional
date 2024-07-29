@@ -9,7 +9,8 @@
         "greeting": "Nice to meet you!",
         "intro": "I am",
         "carreer": "Software engineer",
-        "quote": "I am many things, can do many things. And done right"
+        "quote": "I am many things, can do many things. And done right",
+        "cv": "Would you like to see my CV"
     },
     "skillset": {
         "title": "My skills? Glad you asked",

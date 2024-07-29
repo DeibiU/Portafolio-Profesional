@@ -1,6 +1,6 @@
 import React from 'react';
-import Portfolio1 from '../../assets/portfolio-3.png';
-import Portfolio2 from '../../assets/portfolio-4.png';
+import Portfolio1 from '../../assets/portfolio-4.png';
+import Portfolio2 from '../../assets/Proyecto-Est1.png';
 import Portfolio3 from '../../assets/Presentation1.gif';
 import './portfolio.css';
 import { useTranslation } from 'react-i18next';

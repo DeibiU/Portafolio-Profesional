@@ -1,11 +1,18 @@
 .footer {
     width: 100vw;
-    height: 45rem;
-    background: gray;
+    height: 4rem;
+    background: rgba(128, 128, 128, 0.193);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     font-weight: 300;
     font-size: small;
     padding: 0 3rem;
+    
+}
+
+#lang {
+    background-color: yellow;
+    color: blue;
+    width: 20rem;
 }
