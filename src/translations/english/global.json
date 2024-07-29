@@ -23,7 +23,10 @@
     "portfolio": {
         "title": "Array of projects",
         "subtitle": "Behold of my humble but honest contributions",
-        "button": "See More"
+        "button": "See More",
+        "port1": "This own portfolio, made in React",
+        "port2": "MSX88 Calculator",
+        "port3": "Cenfotecos Kingdom Demo"
     },
     "contact": {
         "title": "Would you like to contact me",

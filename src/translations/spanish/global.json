@@ -23,11 +23,14 @@
     "portfolio": {
         "title": "Coleccion de proyectos",
         "subtitle": "Presento mis humildes y honestas contribuciones",
-        "button": "Ver mas"
+        "button": "Ver mas",
+        "port1": "Este mismo portafolio, hecho en React",
+        "port2": "Calcuradora de MSX88",
+        "port3": "Demo de Reino Cenfotecos"
     },
     "contact": {
         "title": "Le gustaria contactarme",
-        "subtitle": "In case you have any questions, you may write them down below",
+        "subtitle": "En caso de cualquier pregunta, la puede escribir debajo",
         "name": "Su nombre porfavor.",
         "email": "Su email porfavor.",
         "message": "Escucho...",

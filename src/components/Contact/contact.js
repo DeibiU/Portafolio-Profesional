@@ -34,7 +34,7 @@ const Contact = () => {
     return (
         <section id="contact">
             <h1 className="contactTitle">{t("contact.title")}?</h1>
-            <span className="contactDescription">{t("contact.subtitle")}</span>
+            <span className="contactDescription">{t("contact.subtitle")}.</span>
             <form className="contactForm" ref={form} onSubmit={sendEmail}>
                 <input type="text" className="name" placeholder={t("contact.name")} name='your_name'/>
                 <input type="email" className="email" placeholder={t("contact.email")} name='your_email'/>
