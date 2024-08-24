@@ -4,8 +4,10 @@ import { Toaster, toast } from 'sonner';
 import GitHubIcon from '../../assets/GitHubIcon.png';
 import LinkedInIcon from '../../assets/LinkedInIcon.png';
 import './contact.css';
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
+    const [t, i18n] = useTranslation("global");
     const form = useRef();
     
     const sendEmail = (e) => {
@@ -31,13 +33,13 @@ const Contact = () => {
 
     return (
         <section id="contact">
-            <h1 className="contactTitle">Would you like to contact me?</h1>
-            <span className="contactDescription">In case you have any questions, you may write them down below</span>
+            <h1 className="contactTitle">{t("contact.title")}?</h1>
+            <span className="contactDescription">{t("contact.subtitle")}.</span>
             <form className="contactForm" ref={form} onSubmit={sendEmail}>
-                <input type="text" className="name" placeholder="Your name please." name='your_name'/>
-                <input type="email" className="email" placeholder="Your email please." name='your_email'/>
-                <textarea className="message" name="message" rows="5" placeholder="I'm listening..."/>
-                <button type="submit" value="Send!" className="submitBtn">Submit</button>
+                <input type="text" className="name" placeholder={t("contact.name")} name='your_name'/>
+                <input type="email" className="email" placeholder={t("contact.email")} name='your_email'/>
+                <textarea className="message" name="message" rows="5" placeholder={t("contact.message")}/>
+                <button type="submit" value="Send!" className="submitBtn">{t("contact.button")}</button>
                 <Toaster richColors />
                 <div className="links">
                     <a href="https://github.com/DeibiU" className="iconLink"><img src={GitHubIcon} alt="GitHub" className="link"/></a>

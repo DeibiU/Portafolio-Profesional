@@ -1,0 +1,42 @@
+{
+    "navbar": {
+        "start": "Inicio",
+        "about": "Acerca de",
+        "project": "Proyectos",
+        "contact": "Contacteme!!"
+    },
+    "start": {
+        "greeting": "Mucho gusto!",
+        "intro": "Soy",
+        "carreer": "Ingeniero de software",
+        "quote": "Puedo ser, y hacer muchas cosas. Y bien hechas",
+        "cv": "Le gustaria ver mi CV"
+    },
+    "skillset": {
+        "title": "Mis habilidades? Dejame mostrarlas",
+        "subtitle": "Tengo una extensa cantidad de habilidades, las cuales varian fuertemente de cada una para tener exito en la mayor cantidad posible de campos y situaciones",
+        "skill": "Habilidad",
+        "skill1": "Puedo, hablar y escribir a nivel avanzado Ingles, Español, Frances, ademas de Japones intermedio",
+        "skill2": "Tengo experiencia trabajando Java, Html, Css, TypeScript, JavaScript, ASP .NET, React, Angular, SQL, Git, C# y C++",
+        "skill3": "He aprendido las habilidaded flexibilidad, trabajo en equipo y liderazgo, resiliencia, paciencia, balance y reflexion, buena comunicacion y a ser indagador, investigador, y de buenos principios"
+    },
+    "portfolio": {
+        "title": "Coleccion de proyectos",
+        "subtitle": "Presento mis humildes y honestas contribuciones",
+        "button": "Ver mas",
+        "port1": "Este mismo portafolio, hecho en React",
+        "port2": "Calcuradora de MSX88",
+        "port3": "Demo de Reino Cenfotecos"
+    },
+    "contact": {
+        "title": "Le gustaria contactarme",
+        "subtitle": "En caso de cualquier pregunta, la puede escribir debajo",
+        "name": "Su nombre porfavor.",
+        "email": "Su email porfavor.",
+        "message": "Escucho...",
+        "button": "Subir"
+    },
+    "footer": {
+        "label": "Idioma"
+    }
+}

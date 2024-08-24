@@ -1,17 +1,20 @@
 import React from 'react';
-/*import { Link } from 'react-scroll';*/
+import { useTranslation } from 'react-i18next';
+import { Link } from 'react-scroll';
 import bg from '../../assets/StartBGPic.png';
-/*import interestedImg from '../../assets/interested.jpg';*/
+import docImg from '../../assets/docImg.png';
 import './start.css';
 
 const Start = ()=> {
+    const [t, i18n] = useTranslation("global");
+
     return (
         <section id="start">
             <div className="startContent">
-              <span className="greeting">Nice to meet you!</span> 
-              <span className="startText">I am <span className="startName">David</span> <br /> Software engineer.</span>
-              <p className="startParragraph"> I am many things, can do many things. And done right. </p>
-              {/*<Link><button className="btn"><img src={interestedImg} alt="Interested i see you are MMMmmm" className="btnImg"/>Intrested?</button></Link>*/}
+              <span className="greeting">{t("start.greeting")}</span> 
+              <span className="startText">{t("start.intro")} <span className="startName">David</span> <br /> {t("start.carreer")}.</span>
+              <p className="startParragraph"> {t("start.quote")}. </p>
+              {<Link><button className="btn"><img src={docImg} alt="Download CV" className="btnImg"/>{t("start.cv")}?</button></Link>}
             </div>
             <img src={bg} alt="Profile" className="bg" />   
         </section>

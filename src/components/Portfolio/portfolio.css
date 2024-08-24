@@ -24,7 +24,7 @@
 }
 
 .portfolioImages{
-    display: flex;
+    display:block;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -32,7 +32,6 @@
     max-width: 65rem;
 }
 
-/*note4da future: height may vary between pics*/
 .portfolioImage{
     object-fit: cover;
     height: 30rem;
@@ -49,7 +48,12 @@
     font-size: 1rem;
 }
 
-/*note4da future: this too*/
+h3 {
+    font-size: 2rem;
+    color: yellow;
+    margin: 30px;
+ }
+
 @media screen and (max-width:585px) {
     .portfolioImage{
         height: vw;
